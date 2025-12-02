@@ -36,7 +36,7 @@ public class Check {
             int rowsInserted = ps.executeUpdate();
 
             if (rowsInserted > 0) {
-                System.out.println("✅ Data inserted successfully!");
+                System.out.println("✅ Data insrted successfully!");
             }
 
             // Step 5: Close connection
@@ -52,4 +52,5 @@ public class Check {
         }
     }
 }
+
 
