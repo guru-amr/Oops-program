@@ -14,7 +14,7 @@ class Racer extends Thread {
 	 Thread.sleep(null); // Sleep to simulate running time
  } 
  catch (InterruptedException e) {
-	 System.out.println(name + " was interrupted!");
+	 System.out.println(namee + " was interrupted!");
  }
  }
  System.out.println(name + " has finished the race!");
@@ -32,5 +32,6 @@ public class Division {
  
  }
 }
+
 
 
